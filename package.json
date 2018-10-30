@@ -1,6 +1,6 @@
 {
   "name": "gulp-riot3",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Gulp plugin for Riot",
   "main": "index.js",
   "scripts": {
