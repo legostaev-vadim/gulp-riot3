@@ -1,0 +1,23 @@
+{
+  "name": "gulp-riot3",
+  "version": "1.0.0",
+  "description": "Gulp plugin for Riot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "riot"
+  ],
+  "author": {
+    "name": "Legostaev Vadim",
+    "email": "legostaev.vadim@mail.ru"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "riot-compiler": "^3.5.1",
+    "through2": "^2.0.3"
+  }
+}

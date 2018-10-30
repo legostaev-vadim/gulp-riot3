@@ -1,0 +1,36 @@
+# gulp-riot3
+
+**Gulp** plugin for **Riot**
+
+# Install
+
+```
+npm i gulp-riot3 --save-dev
+```
+
+## Setup
+
+```js
+var gulp = require('gulp');
+var riot = require('gulp-riot3');
+var concat = require('gulp-concat');
+
+gulp.task('tags', function () {
+    return gulp.src('src/**/*.{tag,js}')
+        .pipe(riot({
+        	// options
+        }))
+        .pipe(concat('build.js'))
+        .pipe(gulp.dest('dist'));
+});
+```
+
+- **[Options](https://riot.js.org/api/compiler/)**
+
+## License
+
+ISC License
+
+## Author
+
+Legostaev Vadim (*legostaev.vadim@mail.ru*)
